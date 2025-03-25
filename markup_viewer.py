@@ -475,8 +475,8 @@ class MarkupViewer:
             return
             
         # Calculate offset
-        dx = self.start_x - event.x
-        dy = self.start_y - event.y
+        dx = event.x - self.start_x
+        dy = event.y - self.start_y
         
         # Move view area
         self.canvas.xview_scroll(dx, "units")
