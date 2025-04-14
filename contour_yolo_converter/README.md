@@ -1,4 +1,5 @@
-путь к папке со структурой
+#### folder structure
+path to a folder with structure
 
 ```
 data_
@@ -8,8 +9,10 @@ data_
      |_train.txt
 ```
 
-кидаешь на вход скрипта
+#### launch
+```
 python converter.py path/to/folder
+```
 
-на выходе получаешь 
+#### output
 *%PREVIOUS_FOLDER_NAME%_converted*
